@@ -5,19 +5,19 @@ class Person:
         self.city = city
 
     def introduse(self):
-        print(f"Привет, меня зовут {self.name}, мне {self.age} лет, я живу в городе {self.city}.")
+        return f"Привет, меня зовут {self.name}, мне {self.age} лет, я живу в городе {self.city}."
 
     def is_adult(self):
-        return self.age >= "18"
+        return self.age >= 18
 
     def __str__(self):
         return f"Имя: {self.name}\n Возраст: {self.age}\n Город: {self.city}"
 
 
-person_1 = Person(name="Aziret", age="17", city="Bishkek")
-person_2 = Person(name="Aliya", age="20", city="Bishkek")
-person_3 = Person(name="Nurayim", age="22", city="Bishkek")
-person_4 = Person(name="Almaz", age="50", city="Bishkek")
+person_1 = Person(name="Aziret", age=17, city="Bishkek")
+person_2 = Person(name="Aliya", age=20, city="Bishkek")
+person_3 = Person(name="Nurayim", age=22, city="Bishkek")
+person_4 = Person(name="Almaz", age=50, city="Bishkek")
 
 print(person_1.introduse())
 print(person_2.introduse())
