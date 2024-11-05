@@ -14,10 +14,10 @@ class Person:
         return f"Имя: {self.name}\n Возраст: {self.age}\n Город: {self.city}"
 
 
-person_1 = Person(name="Aziret", age=17, city="Bishkek")
-person_2 = Person(name="Aliya", age=20, city="Bishkek")
-person_3 = Person(name="Nurayim", age=22, city="Bishkek")
-person_4 = Person(name="Almaz", age=50, city="Bishkek")
+person_1 = Person("Aziret", 17,"Bishkek")
+person_2 = Person("Aliya", 20, "Bishkek")
+person_3 = Person("Nurayim", 22, "Bishkek")
+person_4 = Person("Almaz", 50, "Bishkek")
 
 print(person_1.introduse())
 print(person_2.introduse())
